@@ -9,3 +9,4 @@ RUN pip install -r /opt/custom_requirements.txt
 RUN set -x; \
   apt-get install -y --no-install-recommends \
     libreoffice
+    ghostscript
