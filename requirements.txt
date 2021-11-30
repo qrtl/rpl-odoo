@@ -1,2 +1,4 @@
 py3o.template
 py3o.formats
+treepoem==3.11.0
+zxcvbn==4.4.28

@@ -5,7 +5,8 @@ MAINTAINER Quartile Limited <info@quartile.co>
 ADD requirements.txt /opt/custom_requirements.txt
 RUN pip install -r /opt/custom_requirements.txt
 
-# Install LibreOffice for report_py3o
+# Install LibreOffice for report_py3o and ptext-printing tools for treepoem
 RUN set -x; \
   apt-get install -y --no-install-recommends \
     libreoffice
+    ghostscript
