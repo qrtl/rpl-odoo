@@ -10,7 +10,3 @@ RUN set -x; \
   apt-get install -y --no-install-recommends \
     libreoffice
     ghostscript
-    ttf-mscorefonts-installer
-
-# Install default fonts to the environment.
-RUN fc-cache -f
